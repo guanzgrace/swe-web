@@ -58,14 +58,16 @@ border-color: transparent;
 .navbar-default .navbar-toggle .icon-bar {
 background-color: #fff;
 }
-@media (min-width: 992px) {
+
+@media (min-width: 500px) {
 .img-profile{width: auto; max-height: 17vh; display: block; margin: 0 auto; }
 }
 @media (max-width: 500px) {
 .navbar-header .navbar-brand {font-size: 1.25em;}
 }
+
 #contact, #board, #about, #home, #events {
-padding: 140px;
+padding: 10%;
 background-color: #fff;
 text-align: center;
 }
@@ -73,5 +75,6 @@ text-align: center;
 margin-bottom: 60px;
 overflow: hidden;
 }
+
 ul{padding: 2px; margin: 2px; list-style-type: none;}
 li{padding: 4px;}
